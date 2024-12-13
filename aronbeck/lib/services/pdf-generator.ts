@@ -50,7 +50,7 @@ export const generatePDF = (data: FormData) => {
 
   // Título centrado
   doc.setFontSize(18);
-  const title = 'MODELO DE CONCEPTUALIZAÇÃO JUDITH BECK';
+  const title = 'MODELO DE CONCEITUALIZAÇÃO JUDITH BECK';
   const titleWidth = doc.getTextWidth(title);
   const titleX = (pageWidth - titleWidth) / 2;
   doc.text(title, titleX, yPos);
